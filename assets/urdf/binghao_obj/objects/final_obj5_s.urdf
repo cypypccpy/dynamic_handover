@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="object">
+  <link name="object">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/final/final_obj5_s.obj" scale=".065 .065 .065"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/final/final_obj5_s.obj" scale=".065 .065 .065"/>
+<!--          <mesh filename="meshes/custom/obj0_ball.obj" scale=".05 .05 .05"/>-->
+      </geometry>
+    </collision>
+    <inertial>
+      <density value="1000.0"/>
+    </inertial>
+  </link>
+</robot>

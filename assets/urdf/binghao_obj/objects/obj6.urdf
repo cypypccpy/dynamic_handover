@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot name="object">
+  <link name="object">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/custom/obj6.obj" scale=".07 .07 .07"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/custom/obj6.obj" scale=".07 .07 .07"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <density value="500.0"/>
+    </inertial>
+  </link>
+</robot>

@@ -1,7 +1,7 @@
 # Dynamic Handover
 
 <div align=center>
-<img src="assets/image_folder/teaserv2.gif" border=0 width=75%>
+<img src="assets/image_folder/dynamic_handover.gif" border=0 width=75%>
 </div>
 
 ## Table of Content
